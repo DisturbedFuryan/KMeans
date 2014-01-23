@@ -18,7 +18,7 @@ public:
     
     void PutObject( Object* object );
     
-    /* Returns false if the center has not changed. */
+    /* Zwraca false, jeśli środki nie zmieniły swojego położenia. */
     bool UpdateCenter();
     
     void Print();

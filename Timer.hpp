@@ -8,13 +8,13 @@ class Timer {
 public:
     Timer();
     
-    /* Various actions. */
+    /* Różne akcje. */
     void Start();
     void Stop();
     void Pause();
     void Unpause();
 
-    /* Returns time in seconds. */
+    /* Zwraca czas w sekundach. */
     double GetTime();
     
     bool IsStarted() const { return m_started; }
@@ -26,7 +26,7 @@ private:
     
     struct timespec m_ts;
     
-    /* Flags. */
+    /* Flagi. */
     bool m_started;
     bool m_paused;
     

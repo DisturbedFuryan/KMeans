@@ -110,7 +110,7 @@ void KMeans::MakeEmptyClustersWithRandomMeans() {
 
 
 void KMeans::AssignObjectsToClusters() {
-    // Clear clusters.
+    // Czyszczenie klastrów.
     for ( vector<Cluster*>::iterator it = m_clusters.begin(); it != m_clusters.end(); ++it ) {
         (*it)->Clear();
     }
